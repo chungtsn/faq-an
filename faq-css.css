@@ -1,14 +1,3 @@
-        html,
-        body {
-            height: 100%;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Quicksand';
-        }
-body { background: #fafafa; }
         .faq {
             width: auto;
             border: 1px solid #222;
