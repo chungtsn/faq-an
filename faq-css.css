@@ -33,3 +33,50 @@
   padding: 15px;
   display: none;
 }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Quicksand';
+        }
+body { background: #fafafa; }
+        .faq {
+            width: 50%;
+            border: 1px solid #222;
+        }
+
+        .faqitem .header {
+            padding: 15px;
+            background: #C0392B;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .faqitem .header h4 {
+            margin: 0;
+        }
+
+        .faqitem .header .fa.fa-minus {
+            display: none;
+        }
+
+        .faqitem.jquery-accordion-active .fa.fa-minus {
+            display: block;
+        }
+
+        .faqitem.jquery-accordion-active .fa.fa-plus {
+            display: none;
+        }
+
+        .faqitem .content {
+            padding: 15px;
+            display: none;
+        }
