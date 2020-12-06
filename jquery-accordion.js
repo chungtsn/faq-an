@@ -37,9 +37,9 @@
          */
         _defaults: {
             parent: null,
-            questionClass: '.question',
-            answerClass: '.answer',
-            itemClass: '.item',
+            questionClass: '.header',
+            answerClass: '.content',
+            itemClass: '.faqitem',
             closeOthers: true,
             animationDuration: 200,
         },
